@@ -7,7 +7,7 @@ export RSYSLOG_WORKDIRECTORY=${RSYSLOG_WORKDIRECTORY:-/var/lib/rsyslog.pod}
 export MERGE_JSON_LOG=${MERGE_JSON_LOG:-false}
 export UNDEFINED_DEBUG=${UNDEFINED_DEBUG:-false}
 # if false, mmexternal undefined_field won't be called.
-export USE_MMEXTERNAL=${USE_MMEXTERNAL:-true}
+export USE_MMEXTERNAL=${USE_MMEXTERNAL:-false}
 # if true, mmnormalize skipempty is executed.
 # effective when USE_MMEXTERNAL is false.
 export SKIP_EMPTY=${SKIP_EMPTY:-false}
